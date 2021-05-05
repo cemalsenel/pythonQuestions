@@ -1,4 +1,5 @@
 number = input("Enter a number")
+
 while number.isnumeric==False or int(number) <= 2:
     print("Please enter a valid number")
     number = input("Enter a number")
