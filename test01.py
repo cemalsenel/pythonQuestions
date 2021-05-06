@@ -255,5 +255,37 @@ for i in list(range(2,int(number)+1)):
         prime.append(i)    
 print(prime)
 
+
+
+array1 = [0,1,0,3,12]
+array2 = [1,7,0,0,8,0,10,12,0,4]
+
+l = [i for i in array2 if i]
+[l.append(x) for x in array2 if x == 0]
+print(l)
+
+
+def same_vowel(l):
+    l1 = set()
+    z = ['a','e','i','o','u']
+    output=[l[0]]
+    [l1.update(x) for x in l[0] if x in z]        
+    for x in l[1:]:
+        if set([i for i in x if i in z]) == l1:
+            output.append(x)
+    return output
+l= ["many", "carriage", "emit", "apricot", "animal","nany"]
+print(same_vowel(l))
 """
-        
+
+
+
+
+
+
+
+
+
+
+
+
