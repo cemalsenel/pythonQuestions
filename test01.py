@@ -277,6 +277,8 @@ def same_vowel(l):
 l= ["many", "carriage", "emit", "apricot", "animal","nany"]
 print(same_vowel(l))
 """
+#We have a loud talking parrot. We are in trouble if the parrot is talking and the hour is before 6 or after 21.
+
 
 
 
