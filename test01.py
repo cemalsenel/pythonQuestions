@@ -277,10 +277,45 @@ def same_vowel(l):
 l= ["many", "carriage", "emit", "apricot", "animal","nany"]
 print(same_vowel(l))
 """
-#We have a loud talking parrot. We are in trouble if the parrot is talking and the hour is before 6 or after 21.
+
+example = "snow world"
+print("%s" % example[4:7])
 
 
+print("DA", sep="-",end = ' ')
+print("CA", end = '')
+print("BA", sep="-", end = ' ')
+print("AA", end = '')
 
+example = "snow world"
+# example[3] = 's' =>  strings are immutable
+print(example)
+
+print(max("joseph"))
+
+example = "hello"
+print(example.count("l"))
+
+
+example = "helen"
+print(example.find("e"))
+
+
+example="helloworld"
+print(example[::-1].startswith("eh"))
+
+
+print("hello\n\example\n\test.txt")
+print("hello\"example\"test.txt")
+print("hello\example\test.txt")
+#print(“hello"\example"\test.txt”)
+print("hello\\example\\test.txt")
+
+s = "\t\tWorld\n"
+print(s.strip())
+
+
+#print("hello" +"1+2+"3")
 
 
 
