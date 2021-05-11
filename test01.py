@@ -276,7 +276,7 @@ def same_vowel(l):
     return output
 l= ["many", "carriage", "emit", "apricot", "animal","nany"]
 print(same_vowel(l))
-"""
+
 
 example = "snow world"
 print("%s" % example[4:7])
@@ -319,10 +319,24 @@ print(s.strip())
 
 
 
+def not_string(word):
+    if "not" in word:
+        return word
+    else:
+        return "not"+" "+word
 
+print(not_string("bad"))
 
-
-
-
+def missing_char(word, n):
+    if -1<n<len(word) :
+        return word[0:n]+word[n+1:]
+    
+print(missing_char("word", 3))
+"""
+def missing_char(word, n):
+    if -1<n<len(word) :
+        return word.replace(word[n], "")
+    
+print(missing_char("word", 0))
 
 
