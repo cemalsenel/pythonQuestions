@@ -1,0 +1,5 @@
+text = input("Enter a string :")
+letter_list = list(text)
+letter_counter = lambda x : letter_list.count(x)
+new_list = list(map(letter_counter,letter_list))
+print(dict(zip(letter_list,new_list)))
